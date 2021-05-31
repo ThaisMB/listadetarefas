@@ -1,0 +1,87 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostra-tarefas{
+    
+    min-width:500px;
+    min-height:350px;
+    background-color: #3274A8;
+    border-radius: 20px;
+    font-family: 'Kiwi Maru', serif;
+    margin: 150px 0 0;
+}
+
+.titulo-principal{
+    color: whitesmoke;
+    display:flex;
+    min-width: 500px;
+    min-height: 50px;
+    font-size: 1.3em;;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+    justify-content: center;
+}
+
+.form-adiciona{
+    display:flex;
+    justify-content:center;
+    margin: 15px;
+}
+
+.adiciona-tarefa{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+}
+.botao{
+    width: 100px;
+    height: 35px;
+    background-color:#F55B56;
+    border-radius: 8px;
+    border:2px solid #A82E2A;
+}
+.lista-tarefas{
+    list-style-type:none;
+    font-size: 1.2em;
+    color:whitesmoke;
+    padding:0;
+   
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#3DA3F5;
+    margin: 10px;
+    padding: 0 50px;
+    
+}
+
+.content{
+    display:flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.botoes-checar{
+    display:flex;
+    width: 30%;
+}
+
+.botao-checar{
+    width: 60px;
+    height: 25px;
+    background-color: #F55B56;
+    border-radius: 4px;
+    margin: 10px;
+    border:1px solid  #A82E2A;
+}
+
+.concluida .content{
+    text-decoration: line-through;
+    opacity: 0.85;
+}
